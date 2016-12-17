@@ -54,5 +54,7 @@ ext install EditorConfig
 # npm run security-check
     npm run security-check
 
-#
+# npm run share
+    npm run share
+    
 ```
