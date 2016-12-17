@@ -56,5 +56,7 @@ ext install EditorConfig
 
 # npm run share
     npm run share
-    
+
+# npm-run-all --parallel security-check open:src
+    npm start
 ```
