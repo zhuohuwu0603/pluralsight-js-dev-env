@@ -1,6 +1,3 @@
-# pluralsight-js-dev-env
-JavaScript Development Environment from Pluralsight Course with Cory House
-
 
 1. link:
 
@@ -42,6 +39,11 @@ ext install EditorConfig
 # install localtunnel
     npm install localtunnel -g
     lt --port 3001
+
+    #subdomain
+    lt --port 3001 --subdomain zhuohua
+
+    https://zhuohua.localtunnel.me
 
 # install now
     npm install -g now
