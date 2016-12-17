@@ -50,5 +50,9 @@ ext install EditorConfig
     create start script:
     now
 
+
+# npm run security-check
+    npm run security-check
+
 #
 ```
