@@ -59,4 +59,10 @@ ext install EditorConfig
 
 # npm-run-all --parallel security-check open:src
     npm start
+    npm start -s : silent
+
+# --parallel for share:
+    npm run share
+    "share": "npm-run-all --parallel open:src localtunnel"
+
 ```
