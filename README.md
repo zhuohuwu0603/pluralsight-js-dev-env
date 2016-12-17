@@ -70,4 +70,11 @@ ext install EditorConfig
 
 # eslint-plugin-react
 
+
+https://gist.github.com/coryhouse/d611e83e432f3ae65cc46ebb9b599930
+
+# .eslintrc.json file for "Building a JavaScript Development" Pluralsight course
+https://gist.github.com/coryhouse/61f866c7174220777899bcfff03dab7f
+
+
 ```
