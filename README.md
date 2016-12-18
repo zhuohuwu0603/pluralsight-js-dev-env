@@ -81,4 +81,11 @@ https://gist.github.com/coryhouse/61f866c7174220777899bcfff03dab7f
   npm test
 
 
+# schema
+  https://gist.github.com/coryhouse/300ed803148caaf9d4f3f45d1a03874d
+
+
+# generate mock data
+  npm run generate-mock-data
+
 ```
