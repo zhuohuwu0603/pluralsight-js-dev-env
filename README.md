@@ -96,4 +96,10 @@ https://gist.github.com/coryhouse/61f866c7174220777899bcfff03dab7f
 # react example
   https://github.com/coryhouse/react-slingshot
 
+# travis ci build:
+  https://travis-ci.org/zhuohuwu0603/pluralsight-js-dev-env
+
+# gitlab ci build: failed
+  https://gitlab.com/zhuohuawu/pluralsight-js-dev-env/commit/1cf906cae3fb8a1261161093499771ae82da5a23
+
 ```
