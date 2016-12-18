@@ -88,4 +88,12 @@ https://gist.github.com/coryhouse/61f866c7174220777899bcfff03dab7f
 # generate mock data
   npm run generate-mock-data
 
+# start mockapi
+  npm run start-mockapi
+  open browser, and type in: http://localhost:3002/users
+
+
+# react example
+  https://github.com/coryhouse/react-slingshot
+
 ```

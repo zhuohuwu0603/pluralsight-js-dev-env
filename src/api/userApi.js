@@ -8,8 +8,20 @@ export function getUsers() {
   return get('users');
 }
 
+export function deleteUser() {
+  return del(`users/{id}`); //note to use tilta, instead of single quote
+}
+
 function get(url) {
   return fetch(url).then(onSuccess, onError);
+}
+
+function del(url) {
+  const request = new Request(baseUrl + url, {
+    method: 'DELETE'
+  });
+
+  return fetch(request).then(onSuccess, onError);
 }
 
 function onSuccess(response){
@@ -17,5 +29,5 @@ function onSuccess(response){
 }
 
 function onError(error) {
-  console.log(error); //eslint-disable-lint no-console
+  console.log(error); //eslint-disable-line no-console
 }
