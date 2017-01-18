@@ -107,4 +107,15 @@ npm start -s
 # gitlab ci build: failed
   https://gitlab.com/zhuohuawu/pluralsight-js-dev-env/commit/1cf906cae3fb8a1261161093499771ae82da5a23
 
+#  Install the Tracker Library
+
+<!-- BEGIN TRACKJS -->
+<script type="text/javascript">window._trackJs = { token: 'b0608e180e834d62bb0222b1842929eb' };</script>
+<script type="text/javascript" src="https://cdn.trackjs.com/releases/current/tracker.js"></script>
+<!-- END TRACKJS -->
+
+Track an Error: trackJs.track('ahoy trackjs!');
+
+user: zhuohua's gmail 
+pwd: trackjs123
 ```
