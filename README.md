@@ -25,6 +25,8 @@ https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
 
 ext install EditorConfig
 
+package.json sample: https://gist.github.com/coryhouse/29bd1029b623beb4c7f79b748dcba844
+
 ```python
     cmd + P: install command
     control + ` : open terminal
@@ -32,7 +34,7 @@ ext install EditorConfig
     npm install
 
 
-# install nsp package:
+# install nsp package: run security check if a package has security issue
     npm install --global nsp
     cd app_dir
     nsp check : check vulnerabilities
@@ -70,12 +72,15 @@ ext install EditorConfig
 
 # eslint-plugin-react
 
+list of language compile to js: https://github.com/jashkenas/coffeescript/wiki/List-of-languages-that-compile-to-JS
+webpack.config.dev.js sample: https://gist.github.com/coryhouse/d611e83e432f3ae65cc46ebb9b599930
 
 https://gist.github.com/coryhouse/d611e83e432f3ae65cc46ebb9b599930
 
 # .eslintrc.json file for "Building a JavaScript Development" Pluralsight course
 https://gist.github.com/coryhouse/61f866c7174220777899bcfff03dab7f
 
+npm start -s
 
 #Unit Test
   npm test
