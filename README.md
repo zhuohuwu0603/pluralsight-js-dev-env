@@ -116,6 +116,45 @@ npm start -s
 
 Track an Error: trackJs.track('ahoy trackjs!');
 
-user: zhuohua's gmail 
+user: zhuohua's gmail
 pwd: trackjs123
+
+
+https://dashboard.heroku.com/apps
+
+
+Download heroku-cli: https://devcenter.heroku.com/articles/heroku-cli
+
+Verify:
+  Viafouras-MBP-4:pluralsight-js-dev-env kevinwu$ heroku --version
+  heroku-cli/5.6.8-9647e01 (darwin-amd64) go1.7.4
+
+
+
+heroku login
+
+heroku create
+
+url: https://immense-depths-60655.herokuapp.com/
+
+
+
+Viafouras-MacBook-Pro-4:js-dev-env-demo-api kevinwu$ heroku create
+Creating app... done, ⬢ immense-depths-60655
+https://immense-depths-60655.herokuapp.com/ | https://git.heroku.com/immense-depths-60655.git
+
+  heroku git:remote -a immense-depths-60655
+
+  git push heroku master
+
+  ...
+  remote:        https://immense-depths-60655.herokuapp.com/ deployed to Heroku
+  remote:
+  remote: Verifying deploy... done.
+  To https://git.heroku.com/immense-depths-60655.git
+     1d50b3b..b6b2d92  master -> master
+
+
+go to url: https://immense-depths-60655.herokuapp.com/users
+
 ```
