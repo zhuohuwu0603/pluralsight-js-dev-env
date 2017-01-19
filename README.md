@@ -119,32 +119,31 @@ Track an Error: trackJs.track('ahoy trackjs!');
 user: zhuohua's gmail
 pwd: trackjs123
 
+# Setup heroku:
 
-https://dashboard.heroku.com/apps
+(1) install heroku-cli:
+  https://dashboard.heroku.com/apps
+  Download heroku-cli: https://devcenter.heroku.com/articles/heroku-cli
 
+  Verify:
+    Viafouras-MBP-4:pluralsight-js-dev-env kevinwu$ heroku --version
+    heroku-cli/5.6.8-9647e01 (darwin-amd64) go1.7.4
 
-Download heroku-cli: https://devcenter.heroku.com/articles/heroku-cli
+(2) login and create a heroku project
+  heroku login
+  heroku create
 
-Verify:
-  Viafouras-MBP-4:pluralsight-js-dev-env kevinwu$ heroku --version
-  heroku-cli/5.6.8-9647e01 (darwin-amd64) go1.7.4
+  Viafouras-MacBook-Pro-4:js-dev-env-demo-api kevinwu$ heroku create
+  Creating app... done, ⬢ immense-depths-60655
+  https://immense-depths-60655.herokuapp.com/ | https://git.heroku.com/immense-depths-60655.git
 
-
-
-heroku login
-
-heroku create
-
+(3) to to url:
 url: https://immense-depths-60655.herokuapp.com/
 
-
-
-Viafouras-MacBook-Pro-4:js-dev-env-demo-api kevinwu$ heroku create
-Creating app... done, ⬢ immense-depths-60655
-https://immense-depths-60655.herokuapp.com/ | https://git.heroku.com/immense-depths-60655.git
-
+(4) bundle to heroku remote
   heroku git:remote -a immense-depths-60655
 
+(5) push to remote server
   git push heroku master
 
   ...
@@ -157,9 +156,14 @@ https://immense-depths-60655.herokuapp.com/ | https://git.heroku.com/immense-dep
 
 go to url: https://immense-depths-60655.herokuapp.com/users
 
+(6) use surge.sh:
 
 # http://surge.sh/
 
+go to url: holistic-friend.surge.sh
+
+
+# setup yeoman:
 
 
 ```
