@@ -1,8 +1,26 @@
 
-1. link:
 
-http://javascript.ruanyifeng.com/
 
+1. Building a JavaScript Development Environment
+   by Cory House
+
+   Keyword: Development environment, Boilerplate, starter kit, starter project, Seed
+
+https://app.pluralsight.com/library/courses/javascript-development-environment/table-of-contents
+
+Starting a new JavaScript project from scratch is overwhelming. This course provides a playbook outlining the key decisions you need to make.
+Build a robust development environment that handles bundling, linting, transpiling, testing, and much more.
+
+(1) react starter project:
+http://andrewhfarmer.com/starter-project/
+
+
+https://github.com/kriasoft/react-starter-kit
+
+
+(2) ruanyf: http://javascript.ruanyifeng.com/
+
+(3) angular js: awesome angular-js: https://github.com/gianarb/awesome-angularjs
 
 javascript常用技巧：
 http://scarletsky.github.io/2015/01/26/javascript-tricks/
